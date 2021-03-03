@@ -1,0 +1,31 @@
+
+  .inputText {
+    width: calc(100% - 24px);
+    background: #fff;
+    border: 2px solid#eaeaea;
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    &::placeholder {
+      font-weight: 400;
+      color: #adadad;
+    }
+    &.in{
+      border: 2px solid#A88FEE;
+      background: #f5f1ff;
+      color: #7c5bbd;
+      font-weight: 600;
+    }
+    &.success{
+      border: 2px solid#08a652;
+      background: #d8feea;
+      color: #08a652;
+    }
+    &.error{
+      border: 2px solid#ee6c74;
+      background: #fff0f1;
+      color: #ee6c74;
+    }
+  }

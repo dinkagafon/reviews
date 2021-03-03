@@ -1,0 +1,17 @@
+.block {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  h2 {
+    margin: 0;
+    font-size: 16px;
+    color: #7b7c88;
+    font-weight: 700;
+    margin-bottom: 4px;
+    &.absent{
+      color: #08a652;
+    }
+    &.exist{
+      color: #ee6c74;
+    }
+  }
+}

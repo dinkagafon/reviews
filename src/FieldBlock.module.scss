@@ -1,0 +1,22 @@
+.field {
+  margin-bottom: 25px;
+
+  h2 {
+    margin: 0;
+    font-size: 14px;
+    color: #7b7c88;
+    font-weight: 700;
+    margin-bottom: 4px;
+    font-size: 13px;
+    &.fill{
+      color: #7c5bbd;
+    }
+    &.success{
+      color: #08a652;
+    }
+    &.error{
+      color: #ee6c74;
+    }
+  }
+  
+}
